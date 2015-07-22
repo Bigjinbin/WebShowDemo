@@ -1,0 +1,72 @@
+<!-- 我是注释 - 最简单的网页-->
+
+<html>
+
+<head>
+    <title>我是标题</title>
+    </head>
+
+    <body>
+        <!-- 网页内容  -->
+        Hello world
+        
+        <!-- 设置文字颜色-->
+        <p style="font-family:arial;color:red;font-size:20px;"> 我是一个段落</p>
+        
+        <!-- 跳转链接 -->
+        <a href="http://www.baidu.com">百度</a>
+        
+        <!-- 图片链接 -->
+        <p><img src="http://g.hiphotos.baidu.com/image/w%3D230/sign=0cc411ea552c11dfded1b82053276255/6159252dd42a28345a86e00259b5c9ea15cebf93.jpg" > </img></p>
+        
+        <!-- 表格 -->
+        <table border="1">
+            <tr><td>100</td><td>200</td></tr>
+            <tr><td>100</td><td>200</td></tr>
+            <tr><td>100</td><td>200</td></tr>
+        </table><br />
+        
+        <!-- 表单 -->
+        <form action="http://www.baidu.com" method="GET">
+            用户名:<input type="input" name="username" value=""/><br />
+            
+            密码:<input type="input" name="password" /><br />
+            <input type="submit" value="提交" />
+            <input type="reset" value="重置" />
+        </form>
+        
+        
+        <!-- Javascript脚本, 与C语言相似-->
+        <script type="text/javascript">
+            
+            //输出hello world, == NSLog
+            document.write("hello<br/>");
+            
+            //变量
+            var a = 10;
+            var b = 20;
+            var c = a+b;
+            document.write("c = "+c+"<br/>");
+            
+            //运算符和if
+            var age = 20;
+            if(age>=18)
+            {
+                document.write("成年<br/>");
+            }
+            else
+            {
+                document.write("未成年<br/>");
+            }
+        
+            //for循环
+            for(var i=0; i<10; i++)
+            {
+                document.write("i = "+i+"<br/>");
+            }
+            
+        </script>
+        
+    </body>
+
+</html>
